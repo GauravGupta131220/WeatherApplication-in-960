@@ -1,4 +1,7 @@
 
+/**
+ * header
+ */
 header{
 	margin-top: 75px;
 	background-color: #e3e3e3;
@@ -6,6 +9,9 @@ header{
 
 }
 
+/**
+ * header
+ */
 header h1{
 	text-transform: uppercase;;
 	text-align: center;
@@ -14,6 +20,9 @@ header h1{
 	line-height: 150px;
 }
 
+/**
+ * navigation bar
+ */
 .fixed-nav-bar{
 
   position: fixed;
@@ -26,6 +35,9 @@ header h1{
 
 }
 
+/**
+ * navigation bar
+ */
 .fixed-nav-bar li {
 	display: inline;
 	padding: 0 10px 0px 10px;
@@ -33,7 +45,9 @@ header h1{
 }
 
 
-
+/**
+ * navigation bar
+ */
 .fixed-nav-bar{
 	padding: 5px 0 5px 0;
 	background-color: #a9a9a9;
@@ -42,7 +56,9 @@ header h1{
 
 }
 
-
+/**
+ * navigationbar
+ */
 
 .fixed-nav-bar a{
 	text-decoration: none;
@@ -50,8 +66,146 @@ header h1{
 	padding: 8px;
 }
 
+/**
+ * navigation bar
+ * @type {[type]}
+ */
 .fixed-nav-bar a:hover{
 	color: #db5747;
+}
+
+
+/**
+ * 3 column section
+ */
+.miscellaneous, .content, .dailyWeather{
+	
+	background-color: #e3e3e3;
+	height: 250px;
+	
+		
+}
+
+/**
+ * 3 coulumn headings
+ */
+.miscellaneous h3,.content h3,.dailyWeather h3{
+	padding: 10px;
+	color: orange;
+	font-size: 20px;
+}
+
+/**
+ * column 1
+ */
+.miscellaneous h3{
+	padding: 10px;
+	color: #db5747;
+	font-size: 25px;
+}
+
+
+/**
+ * column 2
+ */
+.content h3{
+	padding: 10px;
+	color: #db5747;
+	font-family: Arial;
+	font-size: 25px;
+}
+
+
+
+/**
+ * column 3
+ */
+.dailyWeather h3{	
+	color: #db5747;
+	font-family: Arial;
+	font-size: 25px;
+}
+
+.content p{
+	padding-left: 10px;
+}
+
+/**
+ * weather report section
+ */
+.content a{
+	text-decoration: none;
+	padding-left: 10px; 
+	color: orange
+}
+
+
+/**
+ * weather report section
+ */
+.content span{
+	color: blue;
+}
+
+
+
+
+/**
+ * column 2
+ */
+.content{
+	margin: 0 5px 0 5px;
+	position: relative;
+	overflow: hidden;
+	background-color: #e3e3e3;
+	float: left;
+	width: 310px;
+	
+}
+
+/**
+ * column 3
+ */
+.secondary{
+	margin: 0 20px 0 0;
+	background-color: #e3e3e3;
+	float: left;
+	width: 310px;
+	height: 250px;
+	
+}
+
+
+
+/**
+ * column 3 table
+ */
+.secondary table{
+	display: block; 
+	padding: 0 5px 0 5px;
+}
+
+/**
+ * table heading
+ */
+.secondary th{
+	width: 150px;
+}
+
+/**
+ * table data
+ */
+.secondary td{
+	text-align: center;
+}
+
+/**
+ * column 2
+ */
+.content h2{
+	padding-left: 10px;
+	font-family: Arial;
+	font-size: 15px;
 }
 
 
@@ -178,44 +332,7 @@ a.button{
 }
 
 
-	
-.miscellaneous, .delhiWeather, .dailyWeather{
-	
-	background-color: #e3e3e3;
-		
-}
 
-
-.miscellaneous h3{
-	padding: 10px;
-	color: #db5747;
-	font-size: 25px;
-}
-
-
-
-.delhiWeather h1{
-	padding: 10px;
-	color: #db5747;
-	font-family: Arial;
-	font-size: 30px;
-}
-
-
-
-
-.dailyWeather h1{
-	padding-top: 10px;
-	padding-left: 10px;
-	color: #db5747;
-	font-family: Arial;
-	font-size: 25px;
-}
-
-.delhiWeather p{
-	padding: 0 10px 0 10px;
-	font-family: sans-serif;
-}
 .primary_items, .secondary_items li{
 	font-family: sans-serif;
 }
